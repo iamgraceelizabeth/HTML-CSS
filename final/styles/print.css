@@ -1,0 +1,89 @@
+/*Grace Merry 4/21/21 print styles*/
+
+/*structural styles*/
+nav {
+	display: none;
+}
+header {
+	border-bottom: 2px solid #000000;
+}
+
+/*ids*/
+#bottomNav {
+	display: none;
+}
+#up {
+	display: none;
+}
+
+/*image styles*/
+#me {
+	display: none;
+}
+#computer {
+	float: right;
+	width: 40%;
+}
+#CutePhone {
+	max-width: 20%;
+	float: right;
+}
+#award {
+	display: none;
+}
+.topMargin {
+	margin-top: 20%;
+}
+
+/*about author styles*/
+#column2 {
+	font-size: 0.8em;
+	border-top: 2px solid #000000;
+}
+
+/*contact page styles*/
+#noPadding {
+	padding-bottom: 5%;
+}
+.indent {
+	text-align: center;
+}
+
+/*tabel styles*/
+table {	margin-bottom: 2%;
+	border-spacing: 0;
+	border: 1px solid #363636;
+}
+th {
+	background-color: #E8175D;
+	border-style: none;
+	text-align: center;
+}
+td {
+	padding-right: 1%;
+	padding-left: 1%;
+	border: 1px solid #000000;
+}
+td:first-child {
+	background-color: #474747;
+}
+
+/*Flex box image gallery styles*/
+#gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#gallery img {
+	max-width: 100%;
+	box-shadow: 5px 5px 5px #B8B8B8;
+}
+#gallery figcaption {
+	margin-top: 3%;
+}	
+
+/*id styles*/
+#margin {
+	margin-top: 55%;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--Grace Merry 4/21/21 final project page 5: form page-->
+<html lang="en">
+	<head>
+		<title>Contact Form</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/styles.css" media="screen">
+		<link rel="icon" href="images/favicon.jpg" type="image/ico">
+		<link rel="stylesheet" href="styles/print.css" media="print">
+		<style>
+			legend {
+				border: 5px solid #CC527A;
+				background-color: #363636;
+				color: #FFFFFF;
+			}
+			fieldset {
+				border: 10px groove #CC527A;
+				background-color: #E5E5E5;
+				margin-right: 5%;
+				margin-bottom: 5%;
+				margin-left: 5%;
+			}
+			form {
+				display: grid;
+				grid-template-rows: auto;
+				grid-template-columns: auto auto ;
+				grid-gap: 1em;
+				background-color: #E5E5E5;
+			}
+			label[for="contact"] {
+				grid-column: 1 / 2;
+			}
+			label[for="choice"] {
+				grid-column: 1 / 2;
+			}
+			input[type="submit"] {
+				grid-column: 1 / 2;
+
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header id="backUp" >
+				<h1>Tim Berners-Lee:<br><span id="smallTxt">Inventor of the Worldwide Web and HTML</span></h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="final1.html">Home</a></li>
+					<li><a href="final2.html">MoreInfo</a></li>
+					<li><a href="final3.html">CourseDescription/Objectives</a></li>
+					<li><a href="final4.html">Credits</a></li>
+					<li><a href="final5.html">Contact</a></li>
+				</ul>
+			</nav>
+			<main id="noPadding">
+				<img id="CutePhone" src="images/kawaiiPhone.jpg" alt="Cartooy Phone Picture">
+				<br>
+				<h2 class="indent">Contact Info</h2>
+					<p class="indent">Required fields are marked with asterisks *</P>
+				<fieldset>
+					<legend>Your Info and Feedback</legend>
+						<form method="post" action="mailto:gmerry@stumail.jccc.edu">
+							<label for="Fname">*First Name:</label>
+								<input type="text" name="Fname" id="Fname" required="required">
+							<label for="Lname">*Last Name:</label>
+								<input type="text" name="Lname" id="Lname" required="required">
+							<label for="state">State:</label>
+								<select size="1" name="state" id="state">
+									<option>Select a State</option>
+									<option value="Alabama">Alabama</option>
+									<option value="Alaska">Alaska</option>
+									<option value="Arizona">Arizona</option>
+									<option value="Arkansas">Arkansas</option>
+									<option value="California">California</option>
+									<option value="Colorado">Colorado</option>
+									<option value="Connecticut">Connecticut</option>
+									<option value="Delaware">Delaware</option>
+									<option value="Florida">Florida</option>
+ 									<option value="Georgia">Georgia</option>
+									<option value="Hawaii">Hawaii</option>
+									<option value="Idaho">Idaho</option>
+									<option value="Illinois">Illinois</option>
+									<option value="Indiana">Indiana</option>
+									<option value="Iowa">Iowa</option>
+									<option value="Kansas">Kansas</option>
+									<option value="Kentucky">Kentucky</option>
+									<option value="Louisiana">Louisiana</option>
+									<option value="Maine">Maine</option>
+									<option value="Maryland">Maryland</option>
+									<option value="Massachusetts">Massachusetts</option>
+									<option value="Michigan">Michigan</option>
+									<option value="Minnesota">Minnesota</option>
+									<option value="Mississippi">Mississippi</option>
+									<option value="Missouri">Missouri</option>
+									<option value="Montana">Montana</option>
+									<option value="Nebraska">Nebraska</option>
+									<option value="Nevada">Nevada</option>
+									<option value="New Hampshire">New Hampshire</option>
+									<option value="New Jersey">New Jersey</option>
+									<option value="New Mexico">New Mexico</option>
+									<option value="New York">New York</option>
+									<option value="North Carolina">North Carolina</option>
+									<option value="North Dakota">North Dakota</option>
+									<option value="Ohio">Ohio</option>
+									<option value="Oklahoma">Oklahoma</option>
+									<option value="Oregon">Oregon</option>
+									<option value="Pennsylvania">Pennsylvania</option>
+									<option value="Rhode Island">Rhode Island</option>
+									<option value="South Carolina">South Carolina</option>
+									<option value="South Dakota">South Dakota</option>
+									<option value="Tennessee">Tennessee</option>
+									<option value="Texas">Texas</option>
+									<option value="Utah">Utah</option>
+									<option value="Vermont">Vermont</option>
+									<option value="Virginia">Virginia</option>
+									<option value="Washington">Washington</option>
+									<option value="West Virginia">West Virginia</option>
+									<option value="Wisconsin">Wisconsin</option>
+									<option value="Wyoming">Wyoming</option>
+								</select>
+							<label for="Age">Age:</label>
+								<input type="number" name="Age" id="Age">
+							<label for="phoneNum">Phone:</label>
+								<input type="tel" name="phoneNum" id="phoneNum">
+							<label for="Email">E-mail:</label>
+								<input type="email" name="Email" id="Email">
+							<label for="sendDate">Send Date:</label>
+								<input type="date" name="sendDate" id="sendDate">
+							<label for="CQ">Comments/Questions</label>
+								<textarea name="CQ" id="CQ" cols="35" rows="15"></textarea>
+							<label for="EMail">What do you want us to use to contact you?</label><br>
+								<input type="radio" name="contact" id="EMail" value="EM">E-mail<br>
+								<input type="radio" name="contact" id="Phone" value="P">Phone<br>
+							<label for="choice">Do you want a fun fact about Tim Berners-Lee when you receive a response from us?</label>
+								<input type="checkbox" name="choice" id="choice" value="yes">
+							<input type="submit" value="Submit">
+							<input type="reset">
+						</form>
+				</fieldset>
+				<a id="up" href="#backUp">Back to Top</a>
+			</main>
+			<div id="column2">
+				<h3 class="divIndent" id="authorIndent">About Author</h3>
+					<img id="me" src="images/me.JPG" alt="Picture of the author">
+					<p>My name is Grace and I'm a homeschooled 14-year-old. I take classes at a local community college, in which this website will be used as a final 
+					project. The course description and outline can be found under the <a href="final3">CourseDescription/Objectives</a> tab.</p>
+				<h3 class="divIndent">Contact Info</h3>
+					<p class="divIndent">Phone: 785-844-1263<br>
+					Email: gelizabethmerry@gmail.com or gmerry@stumail.jccc.edu</p>   
+			</div>
+			<footer>
+				<div id="bottomNav">
+					<ul>
+						<li><a href="final1.html">Home</a></li>
+						<li><a href="final2.html">MoreInfo</a></li>
+						<li><a href="final3.html">CourseDescription/Objectives</a></li>
+						<li><a href="final4.html">Credits</a></li>
+						<li><a href="final5.html">Contact</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
