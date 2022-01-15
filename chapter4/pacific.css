@@ -1,0 +1,34 @@
+/* Grace Merry 2/14/21*/
+
+/*global styles*/
+body {
+	background-color: #FFFFFF;
+	color: #666666;
+}
+
+/*structural element styles*/
+header {
+	background-color: #002171;
+	color: #FFFFFF;
+}
+nav {
+	background-color: #BBDEFB;
+}
+
+/*heading styles*/
+h1 {
+	margin-bottom: 0;
+}
+h2 {
+	color: #1976D2;
+}
+	
+/*list styles*/
+dt {
+	color: #002171;
+}
+
+/*classes*/
+.resort {
+	color: #1976D2;
+}

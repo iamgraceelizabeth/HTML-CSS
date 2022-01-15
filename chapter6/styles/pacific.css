@@ -1,0 +1,110 @@
+/* Grace Merry 2/28/21*/
+
+/*global styles*/
+body {
+	background-color: #90C7E3;
+	color: #666666;
+	background-image: linear-gradient( to bottom, #FFFFFF, #90C7E3);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*structural element styles*/
+header {
+	background-color: #002171;
+	background-image: url(../images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+}
+nav {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em;
+}
+nav a {
+	text-decoration: none;
+}
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display: block;
+}
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 2em;
+}
+
+/*heading styles*/
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman", serif;
+}
+h2 {
+	color: #1976D2;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 0 #CCCCCC;
+}
+h3 {
+	color: #000033;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/*list styles*/
+dt {
+	color: #002171;
+}
+ul {
+	list-style-image: url(../images/marker.gif);
+}
+
+/*classes*/
+.resort {
+	color: #1976D2;
+	font-weight: bold;
+}
+
+/*ids*/
+#contact {
+	font-size: 90%;
+}
+#wrapper {
+		margin-right: auto;
+		margin-left: auto;
+		width: 80%;
+		background-color: #FFFFFF;
+		min-width:960px;
+		max-width: 2048px;
+		box-shadow: 3px 3px 0 #333333;
+}
+#homehero {
+	background-image: url(../images/coast.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+#yurthero {
+	background-image: url(../images/yurt.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+#trailhero {
+	background-image: url(../images/trail.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+	
+		
+
