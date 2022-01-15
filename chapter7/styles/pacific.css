@@ -1,0 +1,161 @@
+/* Grace Merry 2/28/21*/
+
+/*universal styles*/
+* {
+	box-sizing: border-box;
+}
+
+/*global styles*/
+body {
+	background-color: #EAEAEA;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*structural element styles*/
+header {
+	background-color: #002171;
+	color: #FFFFFF;
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+nav {
+	float: left;
+	width: 160px;
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+}
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	margin-left: 190px;
+	display: block;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+section {
+	float: left;
+	width: 33%;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 2em;
+	margin-left: 190px;
+	background-color: #FFFFFF;
+}
+
+/*heading styles*/
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+}
+h2 {
+	color: #1976D2;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 0 #CCCCCC;
+}
+h3 {
+	color: #000033;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/*list styles*/
+dt {
+	color: #002171;
+}
+main ul {
+	list-style-image: url(../images/marker.gif);
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+/*nav link styles*/
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #5C7FA3
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #A52A2A;
+}
+
+/*header link styles*/
+header a {
+	text-decoration: none;
+}
+header a:link {
+	color: #FFFFFF;
+}
+header a:visited {
+	color: #FFFFFF;
+}
+header a:hover {
+	color: #90C7E3;
+}
+
+/*classes*/
+.resort {
+	color: #1976D2;
+	font-weight: bold;
+}
+
+/*ids*/
+#contact {
+	font-size: 90%;
+}
+#wrapper {
+		margin-right: auto;
+		margin-left: auto;
+		width: 80%;
+		background-color: #90C7E3;
+		min-width:960px;
+		max-width: 2048px;
+		border: 1px solid #000033;
+		box-shadow: 3px 3px 0 #333333;
+		background-image: linear-gradient( to bottom, #FFFFFF, #90C7E3);
+}
+#homehero {
+	background-image: url(../images/coast2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+	margin-left: 190px;
+}
+#yurthero {
+	background-image: url(../images/yurt.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+	margin-left: 190px;
+}
+#trailhero {
+	background-image: url(../images/trail.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+	margin-left: 190px;
+}
+	
+		
+
