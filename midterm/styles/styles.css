@@ -1,0 +1,92 @@
+/*Grace Merry 3/3/21 Personal Portfolio website styles*/
+
+/*global styles*/
+body {
+	font-family: Verdana, "Times New Roman";
+	background-image: linear-gradient( to bottom, #04396F, #FFFFFF);
+}
+
+/*wireframe element styles*/
+nav {
+	background-color: #E99ED6;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px #780099;
+}
+nav a {
+	color: #FFFFFF;
+}
+footer {
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+/*link styles*/
+a {
+	text-decoration: none;
+}
+
+
+/*heading styles*/
+h1 {
+	text-indent: 0.5em;
+	padding-bottom: 4px;
+	background-color: #04396F;
+	color: #FFFFFF;
+	text-shadow: 3px 3px 3px #000000;
+}
+h2 {
+	background-color: #b8dbef; 
+	text-indent: 0.2em;
+	text-shadow: 3px 3px 3px #6699CC;
+}
+h3 {
+	text-indent: 0.5em;
+}
+
+/*list styles*/
+ul {
+	list-style-type: circle;
+	
+}
+
+/*figcaption styles*/
+figcaption {
+	padding: 2px
+}
+
+/*ids*/
+#wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+}
+#headshotphoto {
+	float: left;
+	border: 9px solid #FFFFFF;
+	max-width: 20%;
+	max-height: 20%;
+}
+#indent {
+	margin-left: 21%;
+}
+#listindent {
+	list-style-position: inside;
+	margin-left: 20%;
+}
+#navindent {
+	padding-left: 22%
+}
+
+/*classes*/
+.pg2photos {
+	max-width: 40%;
+	max-height: 40%;
+	box-shadow: 5px 5px 5px #CCCCCC;
+}
+.padding {
+	padding-left: 5px;
+}
